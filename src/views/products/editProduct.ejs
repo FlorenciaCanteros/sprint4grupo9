@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../partials/head') %>
+<body>
+    <%- include('../partials/header') %> 
+
+    <main class="main-editProduct">
+        <div class="edit-product-padre">
+            <form action="/" method="POST">
+                <div class="lugar-edit">
+                    <label for="name">Nombre del Producto</label>
+                    <input class="rellenoEdit" type="text" name="name" id="name" placeholder="Ryzen 5 3600g" required>
+<br>
+                    <label for="price">Precio</label>
+                    <input class="rellenoEdit" type="number" name="price" id="price" required>
+<br>
+                    <label for="category">Categoria</label>
+                    <input class="rellenoEdit" type="text" name="category" id="category" required>
+                    <br>
+                    <input  class="rellenoAdd"type="file" name="file" id="file" required>
+<br>
+                    <label for="cuotas">Precio 12 cuotas</label>
+                    <input  class="rellenoEdit" type="number" name="cuotas" id="cuotas" required>
+<br>
+                    <button class="botonAdd" type="submit"><a href="/">Editar</a> </button>
+<br>
+                </div>
+            </form>
+
+
+        </div>
+    </main>
+
+    <%- include('../partials/footer') %> 
+</body>
+
+</html>

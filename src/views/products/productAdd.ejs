@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+    <%- include('../partials/head') %>
+<body>
+    <%- include('../partials/header') %>
+
+<div class="main-product-add0">
+    <main class="main-product-add">
+        <div class="formulario-add">
+        <form action="/" method="POST">
+        <label for="name">Nombre del Producto</label>
+         <input class="rellenoAdd" type="text" name="name" id="name" placeholder="Ryzen 5 3600g" required>
+        <br>
+         <label for="price">Precio</label>
+        <input  class="rellenoAdd"type="number" name="price" id="price" required>
+<br>
+        <label for="category">Categoría</label>
+        <input  class="rellenoAdd" type="text" name="category" id="category" required>
+<br>
+        <input class="rellenoAdd" type="file" name="file" id="file" required>  
+<br>
+        <label for="cuotas">Precio 12 cuotas</label>
+        <input class="rellenoAdd" type="number" name="cuotas" id="cuotas" required>
+        </form>
+   <br>
+   <br>
+        <button class="botonAdd" type="submit"><a href="/">Agregar</a> </button>
+    </div>
+    </main>
+</div>
+    <%- include('../partials/footer') %> 
+</body>
+
+</html>
