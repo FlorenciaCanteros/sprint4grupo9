@@ -551,7 +551,6 @@ table {
 
 .container{
     min-height: 80vh;
-    display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Zen Kurenaido', sans-serif;
@@ -666,14 +665,14 @@ table {
     background-color: rgb(43, 43, 204);
     border-radius: 4px;
     height: 50px;
-    position: relative;
-    right: 27px;
+    margin-right: 27px;
     font-size: 20px;
     border:none;
     font-family: 'Zen Kurenaido', sans-serif;
 }
 
 .letradetail{
+    display: flex;
     color: white;
     text-decoration: none;
 }
