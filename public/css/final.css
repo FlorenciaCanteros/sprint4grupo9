@@ -150,8 +150,6 @@ header ul li a:hover{
     margin: 10px 0px;
 }
 
-
-
 .main-home section h3{
     margin: 20px 0px;
     font-family: 'Zen Kurenaido', sans-serif;
@@ -171,7 +169,6 @@ article div.main-article{
 .main-home .products article{
     background-color: white;
 }
-
 
 .discount{
     padding-left: 4px;
@@ -204,7 +201,6 @@ article div.main-article{
 
 .price,
 .discount{
-    
     font-family: 'Zen Kurenaido', sans-serif;
     font-size:20px;
 }
@@ -214,7 +210,6 @@ article div.main-article{
 /*footer*/
 .main-footer{
     display: flex;
-    
     justify-content: space-between;
     font-family: 'Zen Kurenaido', sans-serif;
     text-decoration: none;
@@ -251,8 +246,6 @@ h5{
 }
 /*footer*/
 /***********************************fin home-css(1/4)*********************************/
-
-
 
 /*******************************inicio login- css(1/2)**********************************/
 .main-login{
@@ -319,7 +312,6 @@ h5{
     margin: 10px 0px;
     border-radius: 5px;
     border: none;
-
 }
 
 /*boton enviar*/
@@ -363,7 +355,6 @@ h5{
 
 .regist{
     position: static;
-    
 }
 
 .avisos a{
@@ -381,7 +372,6 @@ h5{
 /******************************inicio perfil- css(1/1)*****************************/
 .main-perfil{
     display: flex;
-    
     padding: 40px;
     justify-content: space-between;
 }
@@ -400,7 +390,6 @@ h5{
     background: #C5CAE9;   
     flex-direction: column;
     justify-content: center;
-    
 }
 
 
@@ -424,7 +413,6 @@ th, td {
     padding: 15px;
     text-align: left; 
     border-bottom: 1px solid #ddd;
-
 }
 
 tr:hover {background-color: #a0a7cf;}
@@ -442,12 +430,12 @@ th {
     border: none;
     text-decoration: none;
     font-size: 20px;
+    font-family: 'Zen Kurenaido', sans-serif;
 }
 .botone44:hover{
     text-decoration: none;
-     background-color:#97a0d8; 
-     color: black;
- }
+    background-color:#97a0d8; 
+    color: black; }
 
 .borde22{
     display: flex;
@@ -469,7 +457,6 @@ th {
  .padre-boton{
     display: flex;
     justify-content: center;
-    
 }
 /*botn responsive*/
 
@@ -488,13 +475,10 @@ th {
     flex-direction: row;
     text-decoration: none;
     justify-content: space-around;
-    
-    
 }
 .tabla-productos ul li{
     list-style-type: none;
     padding: 15px;
-    
 }
 
 
@@ -514,8 +498,7 @@ table {
 .productos{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-   
+    justify-content: space-between; 
 }
 .productos div{
     justify-content: space-between;
@@ -530,7 +513,6 @@ table {
     flex-direction: row;
     justify-content: space-between;
 }
-
 
 
 .table-responsive {
@@ -707,7 +689,6 @@ main{
     width: 90%;
     margin: 0 auto;
     display: flex;
-    
 }
 
 main section article{
@@ -741,8 +722,6 @@ main section h3{
     background-color: #C5CAE9;
 }
 
-
-
 .letras-recuperar{
     padding-top: 3px;
     font-size: 20px;
@@ -753,7 +732,6 @@ main section h3{
 .titulo-recuperar, .letras-recuperar{
     color: rgb(0, 0, 0);
     font-family: 'Zen Kurenaido', sans-serif;
-  
 }
 
 .titulo-recuperar{
@@ -832,8 +810,6 @@ label{
 .register{
     display: flex;
     flex-direction:column;
-    
-    
 }
 .b-de-vuelta, .b-verte{
     font-size: 30px;
@@ -978,7 +954,6 @@ label{
     padding-bottom: 10px;
 }
 .titulo-compra h2{
-    
     font-weight: bold;
     font-size: 30px;
 }
@@ -1000,7 +975,6 @@ th, td {
     border-bottom: 1px solid #ddd;
 
 }
-
 tr:hover {background-color: #a0a7cf;}
 
 th {
@@ -1068,6 +1042,7 @@ th {
     border: none;
     text-decoration: none;
     font-size: 20px;
+    font-family: 'Zen Kurenaido', sans-serif;
 }
 .letra443:hover{
     text-decoration: none;
@@ -1304,15 +1279,12 @@ th {
     /******************************inicio productsCart- css, max-769, (2/2)******************************/
     /*responsive table*/
     .table1{
-        width: 100%;
+        width: 100%;   
     }
-
 
     .padret2 .table2{
         width: 100%;
     }
-
-    
 
     .table1, .table2, .table3, .table4, thead, tbody, th, td, tr{
         display: block ;
@@ -1330,14 +1302,14 @@ th {
     }
 
     .table1 tr:nth-child(odd){
-        background: #ccc;
+        background: #C5CAE9;   
     }
     .table1 td{
         border: none;
         border-bottom: 1px solid #eee ;
         position: relative;
         padding-left: 50%;
-
+        font-weight: bold;
     }
 
     .table1 td:before{
@@ -1356,7 +1328,6 @@ th {
     .table1 td:nth-of-type(5):before {content: "Monto Total";}
     
 
-
     .table2 thead tr{
         position: absolute;
         top: -9999px;
@@ -1367,15 +1338,12 @@ th {
         margin: 0 0 1rem 0;
     }
 
-    .table2 tr:nth-child(odd){
-        background: #ccc;
-    }
     .table2 td{
         border: none;
         border-bottom: 1px solid #eee ;
         position: relative;
         padding-left: 50%;
-
+        font-weight: bold;
     }
 
     .table2 td:before{
@@ -1385,6 +1353,7 @@ th {
         width: 45%;
         padding-right: 10px;
         white-space: nowrap;
+
     }
 
     .table2 td:nth-of-type(1):before {content: "Tipo de Entrega";}
@@ -1401,15 +1370,17 @@ th {
         margin: 0 0 1rem 0;
     }
 
-    .table3 tr:nth-child(odd){
-        background: #ccc;
-    }
     .table3 td{
         border: none;
         border-bottom: 1px solid #eee ;
         position: relative;
         padding-left: 50%;
-
+        background-color: rgb(43, 43, 204);
+        color: white;
+        font-weight: bold;
+    }
+    .pago22{
+        color:white;
     }
 
     .table3 td:before{
@@ -1419,11 +1390,11 @@ th {
         width: 45%;
         padding-right: 10px;
         white-space: nowrap;
+
     }
 
     .table3 td:nth-of-type(1):before {content: "Método de pago";}
     .table3 td:nth-of-type(2):before {content: " ";}
-
 
 
     .table4 thead tr{
@@ -1435,16 +1406,13 @@ th {
     .table4 tr{
         margin: 0 0 1rem 0;
     }
-
-    .table4 tr:nth-child(odd){
-        background: #ccc;
-    }
-
+ 
     .table4 td{
         border: none;
         border-bottom: 1px solid #eee ;
         position: relative;
         padding-left: 50%;
+        font-weight: bold;
     }
 
     .table4 td:before{
@@ -1461,8 +1429,10 @@ th {
     .final-precio{
         position: absolute;
         left: 6px;
-
+        background-color: rgb(43, 43, 204);
+        color: white; 
     }
+
     /*responsive table*/
 
     /******************************productsCart- css, max-769, (2/2)******************************/
@@ -1477,6 +1447,7 @@ th {
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
+        font-weight: bold;
     }
 
 
@@ -1505,7 +1476,7 @@ th {
     }
 
     .table11 tr:nth-child(odd){
-        background: #ccc;
+        background: #C5CAE9;   
     }
     .table11 td{
         border: none;
@@ -1542,7 +1513,7 @@ th {
     }
 
     .table44 tr:nth-child(odd){
-        background: #ccc;
+        background: #C5CAE9;   
     }
 
     .table44 td{
