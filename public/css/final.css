@@ -296,16 +296,8 @@ h5{
     color: white;
 }
 
+
 .login input{
-    background-color: white;
-    color: rgb(43, 43, 204);
-}
-
-.login button{
-    margin-top: 20px;
-}
-
-.login input, button{
     display: flex;
     max-width: 100%;
     padding: 9px;
@@ -322,12 +314,12 @@ h5{
 
 .login button {
     display: flex;
-    max-width: 50%;
+    width: 33%;
     background-color: #1259c3;
     margin: auto;
     margin-top: 20px;
     font-family: 'Zen Kurenaido', sans-serif;
-    align-items: center;
+    font-size: 18px;
 }
 
 .login button[type='submit']:hover{
@@ -350,7 +342,7 @@ h5{
     font-family: 'Zen Kurenaido', sans-serif;
     align-items: center;
     position: relative;
-    left: 20%;
+    margin-left: 20%;
 }
 
 .regist{
@@ -816,13 +808,13 @@ label{
 }
 
 .b-verte{
-    font-size: 15px;
+    font-size: 23px;
+    text-align: center;
+    margin:auto;
 }
 
-.b-de-vuelta, .b-verte{
+.b-de-vuelta{
     text-align: center;
-    color: white;
-
 }
 
 .login{
@@ -865,43 +857,18 @@ label{
 }
 
 
-.reg2{
-    display: flex;
-    max-width: 40%;
-    padding: 9px;
-    margin: 10px 0px;
-    border-radius: 5px;
-    border: none;
-    margin-left: 30%;
-    margin-top: 20px;
-    background-color: rgb(43, 43, 204);
-    font-family: 'Zen Kurenaido', sans-serif;
-}
-
-.reg2:hover{
-    background-color: rgb(74, 116, 194); 
-    color: black;
-}
-
-.reg3{
-    display: flex;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-size: 17px;
-}
-
 /*boton enviar*/
 .reg2{
-    color:rgb(43, 43, 204);;
-    text-decoration: none;
-}
-
-.login button {
     display: flex;
-    max-width: 100%;
     background-color: #1259c3;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.reg2:hover{
+    background-color: #0022AA;
 }
 
 .login button[type='submit']:hover{
@@ -917,9 +884,9 @@ label{
     
 }
 
-.olvidar{
+.olvidar22{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .avisos a{
@@ -927,7 +894,11 @@ label{
     font-family: 'Zen Kurenaido', sans-serif;
     text-decoration: none;
     font-size: 23px;
+}
 
+.regist{
+    border: dotted blue;
+    margin: 10%;
 }
 
 /*avisos  de abajo*/
