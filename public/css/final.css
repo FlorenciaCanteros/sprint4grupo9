@@ -314,7 +314,6 @@ h5{
 
 .login button {
     display: flex;
-    width: 33%;
     background-color: #1259c3;
     margin: auto;
     margin-top: 20px;
@@ -571,7 +570,8 @@ table {
 .info{
     background-color: #fff;
     z-index: 1;
-    padding: 18px 18px;
+    padding: 18px 18px; 
+height: 476px;
     box-shadow: 15px 0 35px rgba(0, 0, 0, 0.1),
     0 -15px 35px rgba(0, 0, 0, 0.1),
     0 15px 35px rgba(0, 0, 0, 0.1);
@@ -719,7 +719,6 @@ main section h3{
     font-size: 20px;
 }
 
-
 /*texto y titulo*/
 .titulo-recuperar, .letras-recuperar{
     color: rgb(0, 0, 0);
@@ -738,24 +737,18 @@ main section h3{
 /*texto y titulo*/
 
 /*barritas para llenar*/
-label{
-    color: rgb(0, 0, 0);
-}
-
-.validar input, .recuperar-contraseña input{
-    background-color: #FFFFFF;
-    color: black;
-}
-
 
 .recuperar-form input, button{
     max-width: 100%;
     padding: 9px;
-    margin: 10px 0px;
+   margin: 10px 0px;
     border-radius: 5px;
-    border: none;
     display: flex;
 }
+#e-mailRec{
+    border: outset ; 
+}
+
 /*barritas para llenar*/
 
 
@@ -776,9 +769,11 @@ label{
 }
 
 .recuperar-form{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
     display: flex;
+    background-color: white;
     flex-direction: column;
+    border-radius: 15px;
     padding: 2% 4%;
 } 
 /*boton enviar*/
@@ -848,12 +843,12 @@ label{
 
 .reg{
     display: flex;
-    max-width: 50%;
+    width: 35%;
     padding: 9px;
     margin: 10px 0px;
     border-radius: 5px;
     border: none;
-    margin-left: 26%;
+    margin-left: 33%;
 }
 
 
@@ -1208,7 +1203,10 @@ th {
     *{
         padding: 0px;
     }
-
+    .Background img {
+        max-width: 100%;
+        height: auto;
+ }
     /*footer*/
     footer{
         position: relative;
@@ -1242,6 +1240,16 @@ th {
     }
     /******************************fin home-css, max-900, (4/4)******************************/
 
+.formulario-add{
+    display: flex;
+    color: black;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 7%;
+}
 
 }
 
@@ -1578,13 +1586,12 @@ th {
 .main-product-add,.main-product-add0{
     display: flex;
     justify-content: center;
-    padding: 10px;
+   
 }
 
 .main-product-add{
     background-color: #C5CAE9;
     padding: 2% 7%;
-    
 }
 .formulario-add{
     display: flex;
@@ -1593,6 +1600,9 @@ th {
     font-size: 20px;
     font-weight: bold;
     flex-direction: column;
+    padding: 10px;
+    margin-bottom: 80px;
+    padding-bottom: 38px;
 }
 .botonAdd{
     width: 100%;
@@ -1601,7 +1611,10 @@ th {
     border-radius: 5px ; 
     display: flex; 
 }
-
+.botonAdd:hover{
+    background-color: #0022AA;
+    color: white;
+}
 
 .botonAdd a {
     display: flex; 
@@ -1613,9 +1626,17 @@ th {
     display: flex;
     border-radius: 5px;
     width: 100%;
-    height: 9%;
+    height: 7%;
     flex-direction: column;
     border: none;
+}
+.rellenoAddDescrition{
+    display: flex;
+    border-radius: 5px;
+    width: 100%;
+    height: 22%;
+    flex-direction: column;
+    border: none;   
 }
 
 /*** fin agregar producto **/
@@ -1625,43 +1646,19 @@ th {
 .main-editProduct,.edit-product-padre{
     display: flex;
     justify-content: center;
-    padding: 10px;
 }
 
 .main-editProduct{
 background-color: #C5CAE9;
-padding: 2% 7%;
+margin-top: 20px;
 }
 
-.lugar-edit{
-    display: flex;
+.edit-product-padre{
     color: black;
     font-family: 'Zen Kurenaido', sans-serif;
     font-size: 20px;
     font-weight: bold;
     flex-direction: column;
+    margin-bottom: 80px;
+    padding-bottom: 38px
 }
-
-.rellenoEdit{
-    display: flex;
-    border-radius: 5px;
-    width: 100%;
-    height: 33px;
-    flex-direction: column;
-    border: none;
-}
-
-.buton-the-edit{
-    width: 100%;
-    background-color: #1259c3;
-    justify-content: center;
-    border-radius: 5px ; 
-    display: flex; 
-}
-
-.boton-the-edit a{
-        display: flex; 
-        color: white;
-        text-decoration: none;
-    }
-    

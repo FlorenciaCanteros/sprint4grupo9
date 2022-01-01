@@ -16,10 +16,12 @@ app.listen(process.env.PORT || 3000 , ()=>{
 
 const UsersRutas= require('./src/routers/UsersRutas')
 const productRutas= require('./src/routers/productRutas')
-
+const methodOverride  = require("method-override");
+app.use(methodOverride("_method"));
 
 //Ruta product
 app.use('/', productRutas);
-
+app.use(express.urlencoded({extended:false})); 
+app.use(express.json());
 //Ruta users
 app.use('/',UsersRutas);

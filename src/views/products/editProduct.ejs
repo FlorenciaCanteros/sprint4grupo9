@@ -6,26 +6,24 @@
 
     <main class="main-editProduct">
         <div class="edit-product-padre">
-            <form action="/" method="POST">
-                <div class="lugar-edit">
-                    <label for="name">Nombre del Producto</label>
-                    <input class="rellenoEdit" type="text" name="name" id="name" placeholder="Ryzen 5 3600g" required>
-<br>
-                    <label for="price">Precio</label>
-                    <input class="rellenoEdit" type="number" name="price" id="price" required>
-<br>
-                    <label for="category">Categoria</label>
-                    <input class="rellenoEdit" type="text" name="category" id="category" required>
-                    <br>
-                    <input  class="rellenoAdd"type="file" name="file" id="file" required>
-<br>
-                    <label for="cuotas">Precio 12 cuotas</label>
-                    <input  class="rellenoEdit" type="number" name="cuotas" id="cuotas" required>
-<br>
-                    <button class="botonAdd" type="submit"><a href="/">Editar</a> </button>
-<br>
-                </div>
-            </form>
+            <form action="/editarProducto/<%=producto.id%>?_method=put " method="POST" enctype="multipart/form-data">
+                <label for="name">Nombre del Producto</label>
+                 <input class="rellenoAdd" type="text" name="nombre" id="nombre" value="<%=producto.nombre%>" >
+                <br>
+                 <label for="price">Precio</label>
+                <input  class="rellenoAdd"type="number" name="precio" id="precio" value="<%=producto.precio%>" >
+        <br>
+                <label for="category">Categoría</label>
+                <input  class="rellenoAdd" type="text" name="categoria" id="categoria" value="<%=producto.categoria%>" >
+                <label for="category">Descripcion</label>
+                <textarea  class="rellenoAddDescrition" name="descripcion" id="descripcion" cols="10" rows="5" ><%=producto.descripcion%></textarea>
+        <br>
+                <input class="rellenoAdd" type="file" name="imagen" id="imagen" >  
+        <br>
+                <label for="cuotas">Precio 12 cuotas</label>
+                <input class="rellenoAdd" type="number" name="cuotas" id="cuotas" value="<%=Number(producto.cuotas.slice(26))%>" >
+                <button class="botonAdd" type="submit">Editar</button>
+                </form>
 
 
         </div>
