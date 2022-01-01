@@ -612,6 +612,7 @@ height: 476px;
     align-items: center;
 }
 .buy-price{
+    display: flex;
     padding-top: 15px;
     display: flex;
     justify-content: center;
@@ -621,7 +622,7 @@ height: 476px;
 .price22{
     color: #333;
     display: flex;
-    align-items: center;
+    align-items:flex-start;
 }
 
 .price22 h1{
@@ -636,7 +637,6 @@ height: 476px;
 }
 
 .botoneDetail{
-    display: flex;
     background-color: rgb(43, 43, 204);
     border-radius: 4px;
     height: 50px;
@@ -1251,6 +1251,7 @@ th {
     margin-bottom: 7%;
 }
 
+
 }
 
 
@@ -1549,9 +1550,6 @@ th {
     .foto1{
         display: flex;
         font-size: 7rem;
-    }
-    .name{
-        font-size: 1.3rem;
     }
     .title{
         font-size: .9rem;
